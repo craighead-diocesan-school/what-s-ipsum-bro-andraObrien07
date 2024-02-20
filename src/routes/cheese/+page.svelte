@@ -5,10 +5,10 @@
 </script>
 
 <Header />
-
 <Nav />
 <main>
   <div class="columns">
+    <!-- <Nav /> -->
     <h2>Pee-YOO Cheese Ipsum</h2>
     <div class="text">
       <p>
@@ -37,7 +37,11 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: lavender;
+    background: rgb(252, 222, 25);
     padding: 5rem 10rem;
+  }
+
+  header {
+    background-color: yellow;
   }
 </style>

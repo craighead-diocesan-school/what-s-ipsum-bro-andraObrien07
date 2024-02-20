@@ -1,12 +1,12 @@
-<header>
+<script>
+  export let color = "lavender";
+</script>
+
+<header style="background: {color}">
   <h1>What's Ipsum, Bro?</h1>
 </header>
 
 <style>
-  header {
-    background: lavender;
-  }
-
   h1 {
     font-family: "Patrick Hand", cursive;
     text-align: center;
