@@ -1,5 +1,5 @@
 <footer>
-  <p><strong>&copy; [Your Name] 202X</strong></p>
+  <p><strong>&copy; [Andra Coman] 202X</strong></p>
   <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
 </footer>
 
