@@ -1,3 +1,8 @@
+<script>
+  import Footer from "$lib/Footer.svelte";
+  import Nav from "$lib/Nav.svelte";
+</script>
+
 <main>
   <div class="container">
     <div class="subheading">
@@ -22,6 +27,8 @@
     swing the lead.
   </p>
 </main>
+<Nav color="#1A1D1A" />
+<Footer />
 
 <style>
   h2 {
@@ -33,16 +40,18 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 150px;
+    height: 300px;
     background-image: url("flag.png");
   }
+  /* Nav {
+    background-image: url("flag.png");
+  } */
 
-  /* .container {
+  .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 400px;
-  } */
+    height: 200px;
+  }
 
   img {
     width: 100px;
