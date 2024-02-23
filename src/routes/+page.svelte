@@ -92,7 +92,6 @@
     padding-bottom: 3rem;
   }
 
-  /* wave effect generated at https://css-generators.com/custom-borders/ */
   .wave {
     --mask: radial-gradient(
           52.5px at 50% calc(100% - 74px),

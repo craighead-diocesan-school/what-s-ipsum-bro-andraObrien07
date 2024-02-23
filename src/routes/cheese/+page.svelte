@@ -4,8 +4,9 @@
   import Nav from "$lib/Nav.svelte";
 </script>
 
-<Header />
-<Nav />
+<Header color="rgb(252, 222, 25)" />
+<Nav color="rgb(252, 222, 25)" />
+
 <main>
   <div class="columns">
     <!-- <Nav /> -->
@@ -37,11 +38,13 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: rgb(252, 222, 25);
+    /* background: rgb(252, 222, 25); */
     padding: 5rem 10rem;
   }
 
-  header {
-    background-color: yellow;
+  main {
+    /* background-color: yellow; */
+    background-image: url("/cartooncheese.png");
+    background-size: cover;
   }
 </style>

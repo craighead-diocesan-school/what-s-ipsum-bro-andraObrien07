@@ -1,4 +1,8 @@
-<nav>
+<script>
+  export let color = "lavender";
+</script>
+
+<nav style="background: {color}">
   <div class="boxes">
     <a href="/">
       <img class="box" src="house.png" alt="House" />
