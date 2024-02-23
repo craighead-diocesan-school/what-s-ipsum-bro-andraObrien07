@@ -1,9 +1,12 @@
 <main>
-  <div class="subheading">
-    <img src="poison.png" alt="poison" />
-    <h2>Yar Pirate Ipsum</h2>
-    <img src="poison.png" alt="poison" />
+  <div class="container">
+    <div class="subheading">
+      <img src="poison.png" alt="poison" />
+      <h2>Yar Pirate Ipsum</h2>
+      <img src="poison.png" alt="poison" />
+    </div>
   </div>
+
   <p>
     Maroon square-rigged rope's end spirits fathom tackle bilge rat careen
     cackle fruit splice the main brace. Arr to go on account bilge six pounders
@@ -23,11 +26,25 @@
 <style>
   h2 {
     font-family: "hyper-scrypt";
+    color: #d9edff;
+    font-size: 300%;
   }
   .subheading {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 150px;
+    background-image: url("flag.png");
+  }
+
+  /* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+  } */
+
+  img {
+    width: 100px;
   }
 </style>
