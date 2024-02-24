@@ -9,6 +9,11 @@
     src: url("/HyperScrypt-Stencil_web.woff2") format("woff2");
   }
 
+  @font-face {
+    font-family: "basteleur";
+    src: url("/Basteleur-Moonlight.woff2") format("woff2");
+  }
+
   /* The code below resets the browser's default styles. It's a good idea to include this in your layout component. */
   :global(body) {
     margin: 0;
