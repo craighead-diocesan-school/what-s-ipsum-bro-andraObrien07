@@ -1,15 +1,17 @@
 <script>
   import Footer from "$lib/Footer.svelte";
-  import Nav from "$lib/Nav.svelte";
+  import SNav from "$lib/SNav.svelte";
 </script>
 
+<!-- <SNav color="#1A1D1A" />?\ -->
+<SNav />
 <main>
-  <div class="container">
-    <div class="subheading">
-      <img src="poison.png" alt="poison" />
-      <h2>Yar Pirate Ipsum</h2>
-      <img src="poison.png" alt="poison" />
-    </div>
+  <!-- <div class="container"> -->
+  <div class="subheading">
+    <img src="poison.png" alt="poison" />
+    <h2>Yar Pirate Ipsum</h2>
+    <img src="poison.png" alt="poison" />
+    <!-- </div> -->
   </div>
   <div class="pcontainer">
     <p>
@@ -30,7 +32,6 @@
 </main>
 
 <!-- <div class="navBackround"> -->
-<Nav color="#1A1D1A" />
 
 <!-- </div> -->
 <Footer />
@@ -54,37 +55,46 @@
   }
 
   main {
-    display: flex;
-    align-items: bottom;
-    justify-content: space-around;
-    height: 500px;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("wave.gif");
   }
 
   .pcontainer {
     display: flex;
     align-items: center;
+
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 500px;
     background-image: url("ship.gif");
+    background-position: left;
+  }
+  .pcontainer:hover {
+    background-position: right;
+    transition: 4s;
   }
   .subheading {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 300px;
+    background-size: cover;
+    height: 150px;
     background-image: url("flag.png");
   }
 
+  p:hover {
+    background-color: #880808;
+    transition: 2s;
+  }
+  /* 
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
-  }
+    height: 200px; */
+  /* } */
 
   img {
     width: 100px;
