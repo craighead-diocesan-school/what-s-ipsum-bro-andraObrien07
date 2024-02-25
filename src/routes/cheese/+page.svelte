@@ -1,11 +1,11 @@
 <script>
   import Header from "$lib/Header.svelte";
   import Footer from "$lib/Footer.svelte";
-  import Nav from "$lib/Nav.svelte";
+  import SNav from "$lib/SNav.svelte";
 </script>
 
 <Header color="rgb(252, 222, 25)" />
-<Nav color="rgb(252, 222, 25)" />
+<SNav color="rgb(252, 222, 25)" />
 
 <main>
   <div class="columns">
