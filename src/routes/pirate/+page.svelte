@@ -6,12 +6,10 @@
 <!-- <SNav color="#1A1D1A" />?\ -->
 <SNav />
 <main>
-  <!-- <div class="container"> -->
   <div class="subheading">
     <img src="poison.png" alt="poison" />
     <h2>Yar Pirate Ipsum</h2>
     <img src="poison.png" alt="poison" />
-    <!-- </div> -->
   </div>
   <div class="pcontainer">
     <p>
@@ -63,7 +61,6 @@
   .pcontainer {
     display: flex;
     align-items: center;
-
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 500px;
