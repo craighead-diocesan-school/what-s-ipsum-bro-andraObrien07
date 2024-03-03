@@ -75,6 +75,7 @@
     background-repeat: no-repeat;
   }
   main {
+    /* display: flex; */
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("disapearingcheese.gif");

@@ -84,14 +84,6 @@
     background-color: #880808;
     transition: 2s;
   }
-  /* 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px; */
-  /* } */
 
   img {
     width: 100px;
