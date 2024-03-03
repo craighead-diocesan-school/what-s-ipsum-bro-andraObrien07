@@ -11,8 +11,13 @@
     <h2>You Probably Haven't Heard of Hipster Ipsum</h2>
     <img class="subheader-image" src="flipflop.webp" alt="flipflops" />
   </div>
-
   <div class="bread">
+    <div class="leftShirt">
+      <img src="leftshirt.png" alt="left shirt" />
+    </div>
+    <div class="rightShirt">
+      <img src="rightshirt.png" alt="right shirt" />
+    </div>
     <img class="beard" src="bread.webp" alt="bread" />
   </div>
   <div class="pcontainer">
@@ -43,8 +48,20 @@
     justify-content: space-around;
     background-size: cover;
     height: 150px;
-    /* width: 100px; */
+
     background-image: url("grasss.webp");
+  }
+
+  h2 {
+    font-family: "Jacquard";
+    font-size: 300%;
+  }
+
+  p {
+    font-family: "basteleur";
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: 4%;
+    padding: 2%;
   }
 
   .pcontainer {
@@ -53,12 +70,30 @@
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 300px;
-    /* background-image: url("bread.webp"); */
-    /* background-position: left; */
   }
 
   .subheader-image {
     width: 100px;
+  }
+
+  .leftShirt {
+    position: absolute;
+    left: -100%;
+    transition: 4s;
+  }
+  .rightShirt {
+    position: absolute;
+    right: -100%;
+    transition: 4s;
+  }
+  .bread:hover .rightShirt {
+    right: -45%;
+    transition: 4s;
+  }
+
+  .bread:hover .leftShirt {
+    left: -45%;
+    transition: 4s;
   }
 
   .bread {
@@ -68,6 +103,9 @@
   }
 
   .beard {
-    width: 500px;
+    width: 600px;
+    /* position: top; */
+    margin-top: -10%;
+    z-index: 999;
   }
 </style>
