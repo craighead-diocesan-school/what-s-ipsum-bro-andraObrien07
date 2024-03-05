@@ -105,7 +105,7 @@
   .beard {
     width: 600px;
     /* position: top; */
-    margin-top: -10%;
+    margin-top: -2%;
     z-index: 999;
   }
 </style>
