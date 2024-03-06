@@ -29,9 +29,6 @@
   </div>
 </main>
 
-<!-- <div class="navBackround"> -->
-
-<!-- </div> -->
 <Footer />
 
 <style>
@@ -40,10 +37,6 @@
     color: #d9edff;
     font-size: 300%;
   }
-
-  /* .navBackround {
-    background-image: url("flag.png");
-  } */
 
   p {
     font-family: "basteleur";
