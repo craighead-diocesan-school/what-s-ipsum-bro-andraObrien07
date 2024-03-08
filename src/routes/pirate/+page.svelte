@@ -7,9 +7,9 @@
 <SNav />
 <main>
   <div class="subheading">
-    <img src="poison.png" alt="poison" />
+    <img src="/poison.png" alt="poison" />
     <h2>Yar Pirate Ipsum</h2>
-    <img src="poison.png" alt="poison" />
+    <img src="/poison.png" alt="poison" />
   </div>
   <div class="pcontainer">
     <p>
@@ -48,7 +48,7 @@
   main {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("wave.gif");
+    background-image: url("/wave.gif");
   }
 
   .pcontainer {
@@ -57,7 +57,7 @@
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 500px;
-    background-image: url("ship.gif");
+    background-image: url("/ship.gif");
     background-position: left;
   }
   .pcontainer:hover {
@@ -70,7 +70,7 @@
     justify-content: space-around;
     background-size: cover;
     height: 150px;
-    background-image: url("flag.png");
+    background-image: url("/flag.png");
   }
 
   p:hover {
