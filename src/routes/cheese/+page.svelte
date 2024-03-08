@@ -7,9 +7,9 @@
 
 <main>
   <div class="subheading">
-    <img src="cheeseicon.png" alt="cheese" />
+    <img src="/cheeseicon.png" alt="cheese" />
     <h2>Pee-YOO Cheese Ipsum</h2>
-    <img src="cheeseicon.png" alt="cheese" />
+    <img src="/cheeseicon.png" alt="cheese" />
   </div>
   <div class="pcontainer">
     <div class="catcher">
@@ -56,7 +56,7 @@
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 500px;
-    background-image: url("mouse.gif.webp");
+    background-image: url("/mouse.gif.webp");
     background-position: left;
   }
   .pcontainer:hover {
@@ -70,7 +70,7 @@
     font-size: 300%;
   }
   .catcher {
-    background-image: url("cheeseicon.png");
+    background-image: url("/cheeseicon.png");
     background-position: right;
     background-repeat: no-repeat;
   }
@@ -78,7 +78,7 @@
     /* display: flex; */
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("disapearingcheese.gif");
+    background-image: url("/disapearingcheese.gif");
     /* background-size: cover; */
     height: 1200px;
   }

@@ -6,9 +6,9 @@
 <SNav />
 <main>
   <div class="subheading">
-    <img class="subCupcake" src="cupcakes.png" alt="cupcakes" />
+    <img class="subCupcake" src="/cupcakes.png" alt="cupcakes" />
     <h2>Yum Cupcake Ipsum</h2>
-    <img class="subCupcake" src="cupcakes.png" alt="cupcakes" />
+    <img class="subCupcake" src="/cupcakes.png" alt="cupcakes" />
   </div>
   <div class="pcontainer">
     <!-- <img class="landingCupcake" src="Kcupcake.png" alt="cupcake" /> -->
@@ -48,7 +48,7 @@
   main {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("equipment.webp");
+    background-image: url("/equipment.webp");
     height: 900px;
     /* background-image: url("Kcupcake.png");
     background-position: bottom; */
@@ -66,7 +66,7 @@
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 300px;
-    background-image: url("Kcupcake.png");
+    background-image: url("/Kcupcake.png");
     background-position: bottom;
   }
 </style>

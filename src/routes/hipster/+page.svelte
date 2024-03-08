@@ -7,18 +7,18 @@
 
 <main>
   <div class="subheading">
-    <img class="subheader-image" src="flipflop.webp" alt="flipflops" />
+    <img class="subheader-image" src="/flipflop.webp" alt="flipflops" />
     <h2>You Probably Haven't Heard of Hipster Ipsum</h2>
-    <img class="subheader-image" src="flipflop.webp" alt="flipflops" />
+    <img class="subheader-image" src="/flipflop.webp" alt="flipflops" />
   </div>
   <div class="bread">
     <div class="leftShirt">
-      <img src="leftshirt.png" alt="left shirt" />
+      <img src="/leftshirt.png" alt="left shirt" />
     </div>
     <div class="rightShirt">
-      <img src="rightshirt.png" alt="right shirt" />
+      <img src="/rightshirt.png" alt="right shirt" />
     </div>
-    <img class="beard" src="bread.webp" alt="bread" />
+    <img class="beard" src="/bread.webp" alt="bread" />
   </div>
   <div class="pcontainer">
     <p>
@@ -49,7 +49,7 @@
     background-size: cover;
     height: 150px;
 
-    background-image: url("grasss.webp");
+    background-image: url("/grasss.webp");
   }
 
   h2 {
