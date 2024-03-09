@@ -48,7 +48,6 @@
     justify-content: space-around;
     background-size: cover;
     height: 150px;
-
     background-image: url("/grasss.webp");
   }
 
