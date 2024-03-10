@@ -20,15 +20,6 @@
       <img src="/prints.png" alt="rat prints" />
     </div> -->
 
-    <div class=" cheesepic">
-      <img src="/cheeseicon.png" alt="cheese" />
-    </div>
-
-    <div class="ratpic">
-      <img src="/prints.png" alt="rat prints" />
-      <img src="/rat.png" alt="rat" />
-    </div>
-
     <div class="catcher">
       <p>
         Cheesy grin parmesan taleggio. Brie boursin pecorino cheesy feet
@@ -45,6 +36,18 @@
         Emmental caerphilly cream cheese mozzarella camembert de normandie
         cheesy feet.
       </p>
+    </div>
+
+    <div class=" cheesepic">
+      <img src="/cheeseicon.png" alt="cheese" />
+    </div>
+
+    <div class="ratpic">
+      <img src="/rat.png" alt="rat" />
+    </div>
+
+    <div class="prints">
+      <img src="/prints.png" alt="rat prints" />
     </div>
   </div>
 </main>
@@ -64,44 +67,53 @@
 
   p {
     font-family: "Patrick Hand", cursive;
-    width: 30%;
+    /* width: 30%; */
     background-color: rgba(255, 255, 255, 0.65);
     margin: 4%;
     padding: 2%;
+    z-index: 99;
   }
   .pcontainer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-repeat: no-repeat;
     height: 500px;
 
     background-color: rgb(250, 221, 106);
     background-position: left;
   }
-  .pcontainer:hover {
-    background-position: right;
-    transition: 5s;
-  }
-  /* .prints {
-    border-image-width: 5%;
-  } */
 
   .cheesepic {
     right: 10%;
-    position: absolute;
-    /* transition: 4s; */
+    z-index: 101;
+    /* position: absolute; */
   }
 
   .ratpic {
     position: left;
     position: absolute;
-    right: 50%;
+    right: 66%;
+
     transition: 4s;
+    background-color: rgb(250, 221, 106);
+    height: 60%;
+    width: 34%;
+    display: flex;
+    align-items: center;
+    z-index: 99;
   }
+
   main:hover .ratpic {
     right: 5%;
     transition: 4s;
+  }
+
+  .prints {
+    transform: rotate(60deg) scale(0.3);
+    position: left;
+    position: absolute;
+    right: 66%;
   }
 
   h2 {
@@ -111,13 +123,10 @@
     font-size: 300%;
   }
   .catcher {
-    /* background-image: url("/rat.png"); */
-    /* background-image: url("/cheeseicon.png"); */
-    background-position: right;
-    background-repeat: no-repeat;
+    z-index: 100;
+    width: fit-content;
   }
   main {
-    /* display: flex; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 1200px;
