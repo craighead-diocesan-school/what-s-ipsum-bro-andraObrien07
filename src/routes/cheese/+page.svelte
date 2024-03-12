@@ -47,7 +47,9 @@
     </div>
 
     <div class="prints">
-      <img src="/prints.png" alt="rat prints" />
+      <img class="print" src="/prints.png" alt="rat prints" />
+      <img class="print" src="/prints.png" alt="rat prints" />
+      <img class="print" src="/prints.png" alt="rat prints" />
     </div>
   </div>
 </main>
@@ -79,41 +81,44 @@
     justify-content: center;
     background-repeat: no-repeat;
     height: 500px;
-
     background-color: rgb(250, 221, 106);
     background-position: left;
   }
 
   .cheesepic {
-    right: 10%;
+    right: 50%;
     z-index: 101;
-    /* position: absolute; */
   }
 
   .ratpic {
     position: left;
     position: absolute;
-    right: 66%;
-
+    right: 5%;
     transition: 4s;
     background-color: rgb(250, 221, 106);
     height: 60%;
-    width: 34%;
+    width: 99%;
     display: flex;
     align-items: center;
     z-index: 99;
   }
 
   main:hover .ratpic {
-    right: 5%;
+    right: -85%;
     transition: 4s;
   }
 
   .prints {
-    transform: rotate(60deg) scale(0.3);
-    position: left;
     position: absolute;
-    right: 66%;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: left; */
+  }
+
+  .print {
+    transform: rotate(60deg) scale(0.3);
+    margin-left: -250px;
   }
 
   h2 {
