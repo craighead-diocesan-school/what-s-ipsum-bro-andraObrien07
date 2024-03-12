@@ -19,6 +19,11 @@
     src: url("JacquardaBastarda9-Regular.ttf");
   }
 
+  @font-face {
+    font-family: "Lobster";
+    src: url("Lobster-Regular.ttf");
+  }
+
   /* The code below resets the browser's default styles. It's a good idea to include this in your layout component. */
   :global(body) {
     margin: 0;

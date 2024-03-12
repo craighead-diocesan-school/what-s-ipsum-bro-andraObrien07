@@ -63,8 +63,13 @@
     background-image: url("/equipment.webp");
     height: 900px;
   }
+
+  h2 {
+    font-family: "Lobster";
+    font-size: 400%;
+  }
   p {
-    font-family: "basteleur";
+    font-family: "Lobster";
     background-color: rgba(255, 255, 255, 0.65);
     margin: 4%;
     padding: 2%;
@@ -75,5 +80,12 @@
     align-items: center;
     justify-content: space-around;
     height: 600px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    main {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
 </style>
