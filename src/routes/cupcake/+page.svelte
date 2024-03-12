@@ -11,7 +11,6 @@
     <img class="subCupcake" src="/cupcakes.png" alt="cupcakes" />
   </div>
   <div class="pcontainer">
-    <!-- <img class="landingCupcake" src="Kcupcake.png" alt="cupcake" /> -->
     <p>
       Halvah liquorice apple pie jelly beans chupa chups candy icing tiramisu.
       Tart jelly jujubes gingerbread croissant biscuit. Chupa chups tart
@@ -25,11 +24,30 @@
       cake cake jelly candy jujubes gummi bears jelly-o. Oat cake wafer
       chocolate bar sweet roll macaroon soufflé powder sugar plum tart.
     </p>
+    <div class="cherrycup">
+      <img src="cherrys.png" alt="cherrys" />
+      <!-- </div>
+    <div class="Kcupcake"> -->
+      <img src="/Kcupcake.png" alt="Kcupcake" />
+    </div>
   </div>
 </main>
 <Footer />
 
 <style>
+  .cherrycup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: 3s;
+  }
+
+  .pcontainer:hover .cherrycup {
+    justify-content: center;
+    transition: 3s;
+  }
+
   .subheading {
     display: flex;
     align-items: center;
@@ -38,20 +56,12 @@
     height: 150px;
     background-color: #fd83ff;
   }
-  /* .landingCupcake {
-    width: 700px;
-  }
-  .landingCupcake:hover {
-    background-position: bottom;
-    transition: 4s; */
-  /* } */
+
   main {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/equipment.webp");
     height: 900px;
-    /* background-image: url("Kcupcake.png");
-    background-position: bottom; */
   }
   p {
     font-family: "basteleur";
@@ -64,9 +74,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-repeat: no-repeat;
-    height: 300px;
-    background-image: url("/Kcupcake.png");
-    background-position: bottom;
+    height: 600px;
   }
 </style>
