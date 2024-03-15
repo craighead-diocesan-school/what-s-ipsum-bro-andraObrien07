@@ -84,8 +84,14 @@
 
   @media screen and (max-width: 1000px) {
     main {
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-right: 1px;
+      margin-left: 1px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 13px;
     }
   }
 </style>

@@ -107,4 +107,24 @@
     margin-top: -2%;
     z-index: 999;
   }
+  @media screen and (max-width: 1000px) {
+    main {
+      margin-right: 1px;
+      margin-left: 1px;
+    }
+    .leftShirt,
+    .rightShirt,
+    .beard {
+      display: none;
+    }
+    .subheader-image {
+      width: 10%;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
 </style>

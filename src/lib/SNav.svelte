@@ -28,13 +28,19 @@
 </nav>
 
 <style>
+    p {
+        font-family: "Patrick Hand", cursive;
+        font-size: 50px;
+    }
     nav {
         background: lavender;
         display: flex;
         font-family: "Patrick Hand", cursive;
         text-align: center;
         /* margin-top: 100px; */
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+        padding-bottom: 50px;
+        padding-left: 20px;
     }
 
     .box {

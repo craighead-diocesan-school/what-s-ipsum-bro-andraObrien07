@@ -127,6 +127,16 @@
     color: #f9f5f1;
     font-size: 300%;
   }
+
+  @media screen and (max-width: 1000px) {
+    main {
+      margin-right: 1px;
+      margin-left: 1px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
   .catcher {
     z-index: 100;
     width: fit-content;
