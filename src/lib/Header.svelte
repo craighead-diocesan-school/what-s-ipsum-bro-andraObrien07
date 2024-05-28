@@ -12,5 +12,6 @@
     text-align: center;
     /* margin-top: 100px; */
     margin-bottom: 0;
+    
   }
 </style>
